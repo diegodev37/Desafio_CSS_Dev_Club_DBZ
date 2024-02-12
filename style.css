@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Noto Serif JP", serif;
+    background-color: black;
+}
+
+body {
+    margin-top: 20px;
+}
+
+.link {
+    width: 87px;
+    height: 20px;
+    left: 42px;
+    margin-left: 30px;
+    font-size: 15PX;
+    cursor: pointer;
+    font-weight: 400;
+    color: red;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: white;
+    font-size: 22px;
+    transition: 1.0s;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.button-header {
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background: orange;
+    cursor: pointer;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+
+.button-header:hover {
+
+    font-size: 13px;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+img {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: white;
+    text-align: left;
+    margin-bottom: 30px;
+
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+div {
+    margin-left: 50px;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.button-main {
+    background: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.button-main:hover {
+
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media(max-width:1100px) {
+    p {
+        width: 246px;
+        margin-top:-80px;
+
+    }
+
+    h1 {
+        width: 300px;
+        height: 137px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 82px;
+        color: white;
+        
+    
+    }
+
+    .button-header {
+        border: none;
+        border-radius: 10px;
+        background: orange;
+        cursor: pointer;
+        padding: 5px;
+        color: white;
+        margin-top: 15px;
+        justify-content: center;
+        display: flex;
+        margin-left: 170px;
+    }
+
+
+    .link {
+
+        left: 42px;
+        margin-left: 30px;
+        font-size: 12px;
+        cursor: pointer;
+        font-weight: 400;
+        color: red;
+        background: white;
+        border-radius: 5px;
+        padding: 4px;
+    }
+
+    img {
+
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .link:hover {
+        background: white;
+        font-size: 16px;
+        transition: 1.0s;
+        border-radius: 5px;
+        padding: 6px;
+    }
+    
+.button-main {
+    background: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.button-main:hover {
+
+    font-size: 15px;
+    transition: 1.0s;
+    border-radius: 5px;
+    padding: 10px;
+}
+}
