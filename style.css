@@ -126,7 +126,7 @@ div {
 
     .button-header {
         border: none;
-        border-radius: 10px;
+        border-radius: 9px;
         background: orange;
         cursor: pointer;
         padding: 5px;
